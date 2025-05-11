@@ -404,6 +404,7 @@ export default function Navbar() {
           whiteSpace: 'nowrap',
           position: 'relative', // Added for correct positioning of mega menu dropdowns
           pointerEvents: 'auto', // Ensure pointer events work
+          paddingLeft: '2rem', // Added padding to create gap between "Accelerating Success" and navigation items
         }}>
          
           {navigationItems.map((item) => (
