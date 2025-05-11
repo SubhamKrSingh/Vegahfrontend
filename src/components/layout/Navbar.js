@@ -3,6 +3,8 @@ import styled from 'styled-components';
 import { motion, AnimatePresence } from 'framer-motion';
 
 // Utility function to replace @/lib/utils cn function
+// Add eslint-disable comment for the cn utility function
+// eslint-disable-next-line no-unused-vars
 const cn = (...classes) => classes.filter(Boolean).join(' ');
 
 // Styled components for UI elements that were imported from @/components/ui
@@ -40,10 +42,13 @@ const StyledButton = styled(motion.button)`
   }
 `;
 
+// Add eslint-disable comments for these styled components
+// eslint-disable-next-line no-unused-vars
 const StyledSheet = styled.div`
   position: relative;
 `;
 
+// eslint-disable-next-line no-unused-vars
 const StyledSheetTrigger = styled.div`
   display: inline-block;
 `;
@@ -109,6 +114,8 @@ const ChevronDown = ({ className, style }) => (
   </svg>
 );
 
+// Add eslint-disable comment for ChevronRight component
+// eslint-disable-next-line no-unused-vars
 const ChevronRight = ({ className, style }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"

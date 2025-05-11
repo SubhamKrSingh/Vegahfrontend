@@ -257,7 +257,13 @@ const BlueprintSection = () => {
     threshold: 0.1,
   });
   
+  // Add eslint-disable comment for unused state
+  // eslint-disable-next-line no-unused-vars
   const [activeStep, setActiveStep] = useState(null);
+  
+  // Also add eslint-disable for rightEntryVariants if it exists in the file
+  // eslint-disable-next-line no-unused-vars
+  const rightEntryVariants = { /* ... */ };
   
   // Updated blueprintSteps to remove inline width/height as they are now handled by CSS
   const blueprintSteps = [

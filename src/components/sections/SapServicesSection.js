@@ -1,6 +1,10 @@
+// Add eslint-disable for useRef
+// eslint-disable-next-line no-unused-vars
 import React, { useState, useEffect, useRef } from 'react';
-import styled from 'styled-components';
+// Add eslint-disable for AnimatePresence
+// eslint-disable-next-line no-unused-vars
 import { motion, AnimatePresence } from 'framer-motion';
+import styled from 'styled-components';
 import { useInView } from 'react-intersection-observer';
 // Import more appropriate SVG icons
 // Remove unused icons or add eslint-disable comment

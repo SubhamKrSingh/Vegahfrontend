@@ -473,7 +473,8 @@ const IndustriesSection = () => {
         </SectionHeader>
         
         <FilterContainer>
-          {categories.map((category, i) => (
+          {/* Remove the unused i parameter */}
+          {categories.map((category) => (
             <FilterButton 
               key={category.id}
               active={filter === category.id}

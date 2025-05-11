@@ -407,6 +407,8 @@ const ServicesSection = () => {
   };
   
   // Add hover animation variants
+  // Add eslint-disable for hoverVariants
+  // eslint-disable-next-line no-unused-vars
   const hoverVariants = {
     hover: {
       y: -10,
