@@ -210,45 +210,45 @@ const GraphSvg = styled(motion.img)`
   position: absolute;
   width: 1000px;
   height: auto;
-  top: 1%;
-  right: 7.5%;
+  top: -4%; /* Moved up by 5% from 1% */
+  right: 2.5%; /* Moved right by 5% from 7.5% */
   transform: translateY(-50%);
   z-index: 3;
   
   @media (max-width: 1440px) {
     width: 800px;
-    top: 0%;
-    right: 6%;
+    top: -5%; /* Moved up by 5% from 0% */
+    right: 1%; /* Moved right by 5% from 6% */
   }
   
   @media (max-width: 1200px) {
     width: 600px;
-    top: -2%;
-    right: 5%;
+    top: -7%; /* Moved up by 5% from -2% */
+    right: 0%; /* Moved right by 5% from 5% */
   }
   
   @media (max-width: 992px) {
     width: 450px;
-    top: -5%;
-    right: 4%;
+    top: -10%; /* Moved up by 5% from -5% */
+    right: -1%; /* Moved right by 5% from 4% */
   }
   
   @media (max-width: 768px) {
     width: 300px;
-    top: -26%;
-    right: 25%;
+    top: -31%; /* Moved up by 5% from -26% */
+    right: 20%; /* Moved right by 5% from 25% */
   }
   
   @media (max-width: 576px) {
     width: 250px;
-    top: -28%;
-    right: 20%;
+    top: -33%; /* Moved up by 5% from -28% */
+    right: 15%; /* Moved right by 5% from 20% */
   }
   
   @media (max-width: 480px) {
     width: 200px;
-    top: -30%;
-    right: 15%;
+    top: -35%; /* Moved up by 5% from -30% */
+    right: 10%; /* Moved right by 5% from 15% */
   }
 `;
 
