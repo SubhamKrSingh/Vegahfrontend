@@ -210,45 +210,45 @@ const GraphSvg = styled(motion.img)`
   position: absolute;
   width: 1000px;
   height: auto;
-  top: -10.5%; /* Moved down by 1.5% from -12% */
-  right: 2.3%; /* Moved left by 1% more (from 1.3% to 2.3%) */
+  top: -10.2%; /* Moved down by 0.3% from -10.5% */
+  right: 3.5%; /* Moved left by 1.2% more (from 2.3% to 3.5%) */
   transform: translateY(-50%);
   z-index: 3;
   
   @media (max-width: 1440px) {
     width: 800px;
-    top: -9%; /* Moved down by 1.5% from -10.5% */
-    right: 2.8%; /* Moved left by 1% more (from 1.8% to 2.8%) */
+    top: -8.7%; /* Moved down by 0.3% from -9% */
+    right: 4.0%; /* Moved left by 1.2% more (from 2.8% to 4.0%) */
   }
   
   @media (max-width: 1200px) {
     width: 600px;
-    top: -13.5%; /* Moved down by 1.5% from -15% */
-    right: -0.2%; /* Moved left by 1% more (from -1.2% to -0.2%) */
+    top: -13.2%; /* Moved down by 0.3% from -13.5% */
+    right: 1.0%; /* Moved left by 1.2% more (from -0.2% to 1.0%) */
   }
   
   @media (max-width: 992px) {
     width: 450px;
-    top: -16.5%; /* Moved down by 1.5% from -18% */
-    right: -1.2%; /* Moved left by 1% more (from -2.2% to -1.2%) */
+    top: -16.2%; /* Moved down by 0.3% from -16.5% */
+    right: 0.0%; /* Moved left by 1.2% more (from -1.2% to 0.0%) */
   }
   
   @media (max-width: 768px) {
     width: 300px;
-    top: -37.5%; /* Moved down by 1.5% from -39% */
-    right: 19.8%; /* Moved left by 1% more (from 18.8% to 19.8%) */
+    top: -37.2%; /* Moved down by 0.3% from -37.5% */
+    right: 21.0%; /* Moved left by 1.2% more (from 19.8% to 21.0%) */
   }
   
   @media (max-width: 576px) {
     width: 250px;
-    top: -39.5%; /* Moved down by 1.5% from -41% */
-    right: 14.8%; /* Moved left by 1% more (from 13.8% to 14.8%) */
+    top: -39.2%; /* Moved down by 0.3% from -39.5% */
+    right: 16.0%; /* Moved left by 1.2% more (from 14.8% to 16.0%) */
   }
   
   @media (max-width: 480px) {
     width: 200px;
-    top: -41.5%; /* Moved down by 1.5% from -43% */
-    right: 9.8%; /* Moved left by 1% more (from 8.8% to 9.8%) */
+    top: -41.2%; /* Moved down by 0.3% from -41.5% */
+    right: 11.0%; /* Moved left by 1.2% more (from 9.8% to 11.0%) */
   }
 `;
 
