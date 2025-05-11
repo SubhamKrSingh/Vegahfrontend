@@ -209,46 +209,46 @@ const VegahLogo = styled(motion.img)`
 const GraphSvg = styled(motion.img)`
   position: absolute;
   width: 1000px;
-  np  height: auto;
-  top: -4%; /* Moved up by 5% from 1% */
-  right: 2.5%; /* Moved right by 5% from 7.5% */
+  height: auto;
+  top: -7%; /* Moved up by 3% from -4% */
+  right: 0.5%; /* Moved right by 2% from 2.5% */
   transform: translateY(-50%);
   z-index: 3;
   
   @media (max-width: 1440px) {
     width: 800px;
-    top: -2.5%; /* Moved up by 5% from 0% */
-    right: 3%; /* Moved right by 5% from 6% */
+    top: -5.5%; /* Moved up by 3% from -2.5% */
+    right: 1%; /* Moved right by 2% from 3% */
   }
   
   @media (max-width: 1200px) {
     width: 600px;
-    top: -7%; /* Moved up by 5% from -2% */
-    right: 0%; /* Moved right by 5% from 5% */
+    top: -10%; /* Moved up by 3% from -7% */
+    right: -2%; /* Moved right by 2% from 0% */
   }
   
   @media (max-width: 992px) {
     width: 450px;
-    top: -10%; /* Moved up by 5% from -5% */
-    right: -1%; /* Moved right by 5% from 4% */
+    top: -13%; /* Moved up by 3% from -10% */
+    right: -3%; /* Moved right by 2% from -1% */
   }
   
   @media (max-width: 768px) {
     width: 300px;
-    top: -31%; /* Moved up by 5% from -26% */
-    right: 20%; /* Moved right by 5% from 25% */
+    top: -34%; /* Moved up by 3% from -31% */
+    right: 18%; /* Moved right by 2% from 20% */
   }
   
   @media (max-width: 576px) {
     width: 250px;
-    top: -33%; /* Moved up by 5% from -28% */
-    right: 15%; /* Moved right by 5% from 20% */
+    top: -36%; /* Moved up by 3% from -33% */
+    right: 13%; /* Moved right by 2% from 15% */
   }
   
   @media (max-width: 480px) {
     width: 200px;
-    top: -35%; /* Moved up by 5% from -30% */
-    right: 10%; /* Moved right by 5% from 15% */
+    top: -38%; /* Moved up by 3% from -35% */
+    right: 8%; /* Moved right by 2% from 10% */
   }
 `;
 
