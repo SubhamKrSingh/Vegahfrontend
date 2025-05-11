@@ -210,45 +210,45 @@ const GraphSvg = styled(motion.img)`
   position: absolute;
   width: 1000px;
   height: auto;
-  top: -12%; /* Moved up by 5% more from -7% */
-  right: -2.5%; /* Moved right by 3% more from 0.5% */
+  top: -10.5%; /* Moved down by 1.5% from -12% */
+  right: -0.5%; /* Moved left by 2% from -2.5% */
   transform: translateY(-50%);
   z-index: 3;
   
   @media (max-width: 1440px) {
     width: 800px;
-    top: -10.5%; /* Moved up by 5% more from -5.5% */
-    right: -2%; /* Moved right by 3% more from 1% */
+    top: -9%; /* Moved down by 1.5% from -10.5% */
+    right: 0%; /* Moved left by 2% from -2% */
   }
   
   @media (max-width: 1200px) {
     width: 600px;
-    top: -15%; /* Moved up by 5% more from -10% */
-    right: -5%; /* Moved right by 3% more from -2% */
+    top: -13.5%; /* Moved down by 1.5% from -15% */
+    right: -3%; /* Moved left by 2% from -5% */
   }
   
   @media (max-width: 992px) {
     width: 450px;
-    top: -18%; /* Moved up by 5% more from -13% */
-    right: -6%; /* Moved right by 3% more from -3% */
+    top: -16.5%; /* Moved down by 1.5% from -18% */
+    right: -4%; /* Moved left by 2% from -6% */
   }
   
   @media (max-width: 768px) {
     width: 300px;
-    top: -39%; /* Moved up by 5% more from -34% */
-    right: 15%; /* Moved right by 3% more from 18% */
+    top: -37.5%; /* Moved down by 1.5% from -39% */
+    right: 17%; /* Moved left by 2% from 15% */
   }
   
   @media (max-width: 576px) {
     width: 250px;
-    top: -41%; /* Moved up by 5% more from -36% */
-    right: 10%; /* Moved right by 3% more from 13% */
+    top: -39.5%; /* Moved down by 1.5% from -41% */
+    right: 12%; /* Moved left by 2% from 10% */
   }
   
   @media (max-width: 480px) {
     width: 200px;
-    top: -43%; /* Moved up by 5% more from -38% */
-    right: 5%; /* Moved right by 3% more from 8% */
+    top: -41.5%; /* Moved down by 1.5% from -43% */
+    right: 7%; /* Moved left by 2% from 5% */
   }
 `;
 
