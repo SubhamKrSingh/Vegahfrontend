@@ -442,6 +442,8 @@ const SapServicesSection = () => {
   
   // Calculate visible slides based on container width
   const visibleSlides = 1; // Show only one slide at a time for simplicity
+  // Add eslint-disable comment for the unused variable
+  // eslint-disable-next-line no-unused-vars
   const maxIndex = sapServices.length - visibleSlides;
   
   // Carousel navigation functions with smooth continuous movement

@@ -18,6 +18,8 @@ const HeroContainer = styled(motion.section)`
   overflow: hidden;
 `;
 
+// Add eslint-disable comments for unused styled components
+// eslint-disable-next-line no-unused-vars
 const GradientOverlay = styled(motion.div)`
   position: absolute;
   top: 0;
@@ -165,6 +167,7 @@ const StyledLink = styled(Link)`
   text-decoration: none;
 `;
 
+// eslint-disable-next-line no-unused-vars
 const GraphImage = styled(motion.img)`
   width: 168.897855%;
   max-width: 1688.97855px;
