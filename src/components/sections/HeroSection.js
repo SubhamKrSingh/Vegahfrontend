@@ -210,45 +210,45 @@ const GraphSvg = styled(motion.img)`
   position: absolute;
   width: 1000px;
   height: auto;
-  top: -10.2%; /* Moved down by 0.3% from -10.5% */
-  right: 3.5%; /* Moved left by 1.2% more (from 2.3% to 3.5%) */
+  top: -9.5%; /* Moved down by 0.7% from -10.2% */
+  right: 3.5%; /* Unchanged from previous adjustment */
   transform: translateY(-50%);
   z-index: 3;
   
   @media (max-width: 1440px) {
     width: 800px;
-    top: -8.7%; /* Moved down by 0.3% from -9% */
-    right: 4.0%; /* Moved left by 1.2% more (from 2.8% to 4.0%) */
+    top: -8.0%; /* Moved down by 0.7% from -8.7% */
+    right: 4.0%; /* Unchanged from previous adjustment */
   }
   
   @media (max-width: 1200px) {
     width: 600px;
-    top: -13.2%; /* Moved down by 0.3% from -13.5% */
-    right: 1.0%; /* Moved left by 1.2% more (from -0.2% to 1.0%) */
+    top: -12.5%; /* Moved down by 0.7% from -13.2% */
+    right: 1.0%; /* Unchanged from previous adjustment */
   }
   
   @media (max-width: 992px) {
     width: 450px;
-    top: -16.2%; /* Moved down by 0.3% from -16.5% */
-    right: 0.0%; /* Moved left by 1.2% more (from -1.2% to 0.0%) */
+    top: -15.5%; /* Moved down by 0.7% from -16.2% */
+    right: 0.0%; /* Unchanged from previous adjustment */
   }
   
   @media (max-width: 768px) {
     width: 300px;
-    top: -37.2%; /* Moved down by 0.3% from -37.5% */
-    right: 21.0%; /* Moved left by 1.2% more (from 19.8% to 21.0%) */
+    top: -36.5%; /* Moved down by 0.7% from -37.2% */
+    right: 21.0%; /* Unchanged from previous adjustment */
   }
   
   @media (max-width: 576px) {
     width: 250px;
-    top: -39.2%; /* Moved down by 0.3% from -39.5% */
-    right: 16.0%; /* Moved left by 1.2% more (from 14.8% to 16.0%) */
+    top: -38.5%; /* Moved down by 0.7% from -39.2% */
+    right: 16.0%; /* Unchanged from previous adjustment */
   }
   
   @media (max-width: 480px) {
     width: 200px;
-    top: -41.2%; /* Moved down by 0.3% from -41.5% */
-    right: 11.0%; /* Moved left by 1.2% more (from 9.8% to 11.0%) */
+    top: -40.5%; /* Moved down by 0.7% from -41.2% */
+    right: 11.0%; /* Unchanged from previous adjustment */
   }
 `;
 
