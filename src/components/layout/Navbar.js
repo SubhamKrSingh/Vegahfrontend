@@ -373,7 +373,7 @@ export default function Navbar() {
           alignItems: 'center',
           textDecoration: 'none',
           flexShrink: 0,
-          marginLeft: '-17%', // Keeps logo pushed left as per previous instruction
+          marginLeft: '0', // Changed from -17% to 0 to keep logo within screen bounds
         }}>
           <div style={{ fontWeight: 'bold', fontSize: '2.2rem' }}>
             <span style={{ color: '#0a2463' }}>V</span>
@@ -396,7 +396,7 @@ export default function Navbar() {
         <nav style={{
           display: isMobile ? 'none' : 'flex',
           alignItems: 'center',
-          marginLeft: '50%', // Added margin to push navigation items to the right by 40%
+          marginLeft: 'auto', // Changed from 50% to auto to properly align navigation
           justifyContent: 'flex-end', 
           gap: '0.75rem',
           flex: 1, // Allows the nav to take up available space and push items to the right
