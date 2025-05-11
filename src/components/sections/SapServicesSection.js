@@ -3,6 +3,8 @@ import styled from 'styled-components';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 // Import more appropriate SVG icons
+// Remove unused icons or add eslint-disable comment
+// eslint-disable-next-line no-unused-vars
 import { 
   FaRocket, 
   FaLayerGroup, 

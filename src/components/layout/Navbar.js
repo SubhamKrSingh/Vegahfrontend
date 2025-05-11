@@ -231,7 +231,10 @@ const navigationItems = [
 
 export default function Navbar() {
   const [activeMenu, setActiveMenu] = useState(null); // For desktop mega-menu
-  const [activeFlyout, setActiveFlyout] = useState(null); // For tracking active flyout category
+  // eslint-disable-next-line no-unused-vars
+  const [activeFlyout, setActiveFlyout] = useState(null); // Will be used in future implementation
+  // eslint-disable-next-line no-unused-vars
+  const flyoutRefs = useRef({}); // Will be used in future implementation
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   // Add new state for tracking hovered category in desktop mega-menu
@@ -241,7 +244,8 @@ export default function Navbar() {
 
   const isMobile = useMobile();
   const menuRef = useRef(null);
-  const flyoutRefs = useRef({});
+  // Remove this duplicate declaration
+  // const flyoutRefs = useRef({});
 
   // Handle scroll effect for sticky navbar
   useEffect(() => {

@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { useNavigate } from 'react-router-dom'; // Add this import
+// eslint-disable-next-line no-unused-vars
+import { useNavigate } from 'react-router-dom'; // Will be used for navigation
 // Import SVG icons from react-icons
 import { FaExchangeAlt, FaCloud, FaLaptopCode, FaCogs, FaRobot, FaChartBar } from 'react-icons/fa';
 
@@ -643,8 +644,6 @@ const ServicesSection = () => {
                   }
                 }}
               >
-                const navigate = useNavigate();
-                
                 <CloseButton onClick={() => setActiveService(null)}>×</CloseButton>
                 <div style={{ display: 'flex', alignItems: 'center', marginBottom: '1.5rem' }}>
                   <div style={{ fontSize: '3rem', marginRight: '1rem', color: 'var(--primary-dark-blue)' }}>
