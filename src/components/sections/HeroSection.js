@@ -209,7 +209,7 @@ const VegahLogo = styled(motion.img)`
 const GraphSvg = styled(motion.img)`
   position: absolute;
   width: 1000px;
-  height: auto;
+  np  height: auto;
   top: -4%; /* Moved up by 5% from 1% */
   right: 2.5%; /* Moved right by 5% from 7.5% */
   transform: translateY(-50%);
@@ -217,8 +217,8 @@ const GraphSvg = styled(motion.img)`
   
   @media (max-width: 1440px) {
     width: 800px;
-    top: -5%; /* Moved up by 5% from 0% */
-    right: 1%; /* Moved right by 5% from 6% */
+    top: -2.5%; /* Moved up by 5% from 0% */
+    right: 3%; /* Moved right by 5% from 6% */
   }
   
   @media (max-width: 1200px) {
